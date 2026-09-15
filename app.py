@@ -13,8 +13,8 @@ st.set_page_config(
 # CREATE PAGES
 # -----------------------------
 home = st.Page(
-    "pages/Home.py",
-    title="Home",
+    "pages/home.py",
+    title="home",
     icon=":material/home:"
 )
 
