@@ -14,12 +14,12 @@ st.set_page_config(
 # -----------------------------
 home = st.Page(
     "pages/home.py",
-    title="home",
+    title="Home",
     icon=":material/home:"
 )
 
 EDA = st.Page(
-    "pages/eda.py",
+    "pages/EDA.py",
     title="EDA",
     icon=":material/bar_chart:"
 )
@@ -28,8 +28,8 @@ insights = st.Page(
     "pages/2_Insights.py",
     title="Insights",
     icon=":material/lightbulb:"
-)
-# -----------------------------
+) 
+#--------------
 # NAVIGATION
 # -----------------------------
 pg = st.navigation(
